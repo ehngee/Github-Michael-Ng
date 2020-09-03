@@ -19,7 +19,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func messagePressed(_ sender: UIButton) {
-        messageLabel.text="You are greatness!"
+        messageLabel.text="🍕Price: $19.99"
+    }
+    
+    @IBAction func messageLabel(_ sender: UIButton) {
+        messageLabel.text="🍔Price: $15.99"
     }
     
 
